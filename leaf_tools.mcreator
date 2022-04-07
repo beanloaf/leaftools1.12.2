@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 37,
+    "ENTITY": 2,
     "DIMENSION": 1,
-    "ENTITY": 2
+    "GUI": 37
   },
   "mod_elements": [
     {
@@ -3386,11 +3386,11 @@
       "item.charreddust.name": "Charred Dust",
       "item.diamondleafarmor_armorhelmet.name": "Diamondleaf Helmet",
       "tile.naturecore.name": "Nature Core",
-      "item.ironleafshovel.name": "Ironleaf Shovel",
       "item.packedsolardust.name": "Packed Solar Dust",
+      "item.ironleafshovel.name": "Ironleaf Shovel",
       "item.enchantedleafhoe.name": "Enchantedleaf Hoe",
-      "item.essencebase.name": "Essence Base",
       "tile.dustextractor.name": "Dust Extractor",
+      "item.essencebase.name": "Essence Base",
       "tile.infuser.name": "Infuser",
       "item.charredleafpickaxe.name": "Charredleaf Pickaxe",
       "item.enchantedleafmultitool.name": "Enchantedleaf Multitool",
@@ -3408,8 +3408,8 @@
       "tile.enchantedwoodplank.name": "Enchantedwood Plank",
       "tile.enchantedwoodlog.name": "Enchantedwood Log",
       "item.cloudleafsword.name": "Cloudleaf Sword",
-      "item.ironleafhoe.name": "Ironleaf Hoe",
       "item.packedenchanteddust.name": "Packed Enchanted Dust",
+      "item.ironleafhoe.name": "Ironleaf Hoe",
       "tile.enchantedwoodstairs.name": "Enchantedwood Stairs",
       "item.goldleafarmor_armorlegs.name": "Goldleaf Leggings",
       "item.cloudleaf.name": "Cloudleaf",
