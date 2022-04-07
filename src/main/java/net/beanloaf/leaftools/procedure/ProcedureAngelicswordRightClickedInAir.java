@@ -1,7 +1,9 @@
 package net.beanloaf.leaftools.procedure;
 
 import net.minecraft.world.World;
+import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
 
 import net.beanloaf.leaftools.gui.GuiAngelicswordgui;
@@ -13,7 +15,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureAngelicswordRightClickedInAir extends ElementsLeafToolsMod.ModElement {
 	public ProcedureAngelicswordRightClickedInAir(ElementsLeafToolsMod instance) {
-		super(instance, 238);
+		super(instance, 233);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
@@ -42,7 +44,10 @@ public class ProcedureAngelicswordRightClickedInAir extends ElementsLeafToolsMod
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if (entity instanceof EntityPlayer)
-			((EntityPlayer) entity).openGui(LeafToolsMod.instance, GuiAngelicswordgui.GUIID, world, x, y, z);
+		if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemOffhand() : ItemStack.EMPTY)
+				.getItem() == (ItemStack.EMPTY).getItem())) {
+			if (entity instanceof EntityPlayer)
+				((EntityPlayer) entity).openGui(LeafToolsMod.instance, GuiAngelicswordgui.GUIID, world, x, y, z);
+		}
 	}
 }

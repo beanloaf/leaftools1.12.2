@@ -13,7 +13,7 @@ import net.beanloaf.leaftools.ElementsLeafToolsMod;
 @ElementsLeafToolsMod.ModElement.Tag
 public class RecipeIronleafrecipe extends ElementsLeafToolsMod.ModElement {
 	public RecipeIronleafrecipe(ElementsLeafToolsMod instance) {
-		super(instance, 87);
+		super(instance, 89);
 	}
 
 	@Override

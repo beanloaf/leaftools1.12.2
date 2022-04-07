@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureAngelicpickaxeBlockDestroyedWithTool extends ElementsLeafToolsMod.ModElement {
 	public ProcedureAngelicpickaxeBlockDestroyedWithTool(ElementsLeafToolsMod instance) {
-		super(instance, 228);
+		super(instance, 227);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

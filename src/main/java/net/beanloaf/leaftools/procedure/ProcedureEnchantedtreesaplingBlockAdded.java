@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureEnchantedtreesaplingBlockAdded extends ElementsLeafToolsMod.ModElement {
 	public ProcedureEnchantedtreesaplingBlockAdded(ElementsLeafToolsMod instance) {
-		super(instance, 119);
+		super(instance, 121);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

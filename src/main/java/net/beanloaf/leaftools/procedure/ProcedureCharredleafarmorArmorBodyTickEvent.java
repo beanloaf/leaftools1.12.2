@@ -15,7 +15,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureCharredleafarmorArmorBodyTickEvent extends ElementsLeafToolsMod.ModElement {
 	public ProcedureCharredleafarmorArmorBodyTickEvent(ElementsLeafToolsMod instance) {
-		super(instance, 164);
+		super(instance, 163);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

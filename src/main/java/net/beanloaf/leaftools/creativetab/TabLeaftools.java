@@ -13,7 +13,7 @@ import net.beanloaf.leaftools.ElementsLeafToolsMod;
 @ElementsLeafToolsMod.ModElement.Tag
 public class TabLeaftools extends ElementsLeafToolsMod.ModElement {
 	public TabLeaftools(ElementsLeafToolsMod instance) {
-		super(instance, 86);
+		super(instance, 88);
 	}
 
 	@Override

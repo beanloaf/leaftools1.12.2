@@ -39,7 +39,7 @@ public class GuiInfusergui extends ElementsLeafToolsMod.ModElement {
 	public static int GUIID = 3;
 	public static HashMap guistate = new HashMap();
 	public GuiInfusergui(ElementsLeafToolsMod instance) {
-		super(instance, 117);
+		super(instance, 119);
 	}
 
 	@Override

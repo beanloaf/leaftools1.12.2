@@ -41,7 +41,7 @@ public class GuiGuidepage21 extends ElementsLeafToolsMod.ModElement {
 	public static int GUIID = 34;
 	public static HashMap guistate = new HashMap();
 	public GuiGuidepage21(ElementsLeafToolsMod instance) {
-		super(instance, 221);
+		super(instance, 220);
 	}
 
 	@Override

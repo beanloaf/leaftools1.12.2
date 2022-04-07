@@ -21,7 +21,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureLightaltarOnBlockRightClicked extends ElementsLeafToolsMod.ModElement {
 	public ProcedureLightaltarOnBlockRightClicked(ElementsLeafToolsMod instance) {
-		super(instance, 171);
+		super(instance, 170);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

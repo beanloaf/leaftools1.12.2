@@ -1,0 +1,30 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "angelicaxe",
+    "customModelName": "Normal",
+    "name": "Angelic Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Leaftools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 9,
+    "efficiency": 4.0,
+    "attackSpeed": 1.1,
+    "enchantability": 15,
+    "damageVsEntity": 22.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AngelicaxeRightClickedInAir"
+    }
+  }
+}

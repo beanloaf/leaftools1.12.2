@@ -41,7 +41,7 @@ public class GuiGuideTOC extends ElementsLeafToolsMod.ModElement {
 	public static int GUIID = 12;
 	public static HashMap guistate = new HashMap();
 	public GuiGuideTOC(ElementsLeafToolsMod instance) {
-		super(instance, 175);
+		super(instance, 174);
 	}
 
 	@Override

@@ -12,7 +12,7 @@ import net.beanloaf.leaftools.ElementsLeafToolsMod;
 @ElementsLeafToolsMod.ModElement.Tag
 public class OreDictLogBlocks extends ElementsLeafToolsMod.ModElement {
 	public OreDictLogBlocks(ElementsLeafToolsMod instance) {
-		super(instance, 116);
+		super(instance, 118);
 	}
 
 	@Override

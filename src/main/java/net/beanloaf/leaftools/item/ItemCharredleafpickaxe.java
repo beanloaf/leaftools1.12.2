@@ -36,7 +36,7 @@ public class ItemCharredleafpickaxe extends ElementsLeafToolsMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHARREDLEAFPICKAXE", 3, 700, 11f, -2f, 19)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("CHARREDLEAFPICKAXE", 3, 700, 11f, -2f, 19)) { //Name, Harvestlvl, Durability, Effiency, Attack Speed, Enchantability 
 			{
 				this.attackSpeed = -2.8f;
 			}

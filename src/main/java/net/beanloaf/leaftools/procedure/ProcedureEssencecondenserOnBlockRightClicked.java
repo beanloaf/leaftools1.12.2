@@ -28,7 +28,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureEssencecondenserOnBlockRightClicked extends ElementsLeafToolsMod.ModElement {
 	public ProcedureEssencecondenserOnBlockRightClicked(ElementsLeafToolsMod instance) {
-		super(instance, 159);
+		super(instance, 160);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

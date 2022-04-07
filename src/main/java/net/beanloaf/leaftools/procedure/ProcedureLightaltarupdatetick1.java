@@ -17,7 +17,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureLightaltarupdatetick1 extends ElementsLeafToolsMod.ModElement {
 	public ProcedureLightaltarupdatetick1(ElementsLeafToolsMod instance) {
-		super(instance, 170);
+		super(instance, 169);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

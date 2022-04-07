@@ -11,7 +11,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureAngelicpickaxesilktouchcheckbox extends ElementsLeafToolsMod.ModElement {
 	public ProcedureAngelicpickaxesilktouchcheckbox(ElementsLeafToolsMod instance) {
-		super(instance, 236);
+		super(instance, 231);
 	}
 
 	public static boolean executeProcedure(Map<String, Object> dependencies) {

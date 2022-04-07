@@ -45,7 +45,7 @@ public class ItemAngelicpickaxe extends ElementsLeafToolsMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("ANGELICPICKAXE", 9, 2500, 15f, 4f, 25)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("ANGELICPICKAXE", 9, 2500, 15f, 4f, 25)) {//Name, Harvestlvl, Durability, Effiency, Attack Dmg, Enchantability
 			{
 				this.attackSpeed = -2.2f;
 			}

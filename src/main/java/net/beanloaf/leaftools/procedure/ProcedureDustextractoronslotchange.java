@@ -20,7 +20,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureDustextractoronslotchange extends ElementsLeafToolsMod.ModElement {
 	public ProcedureDustextractoronslotchange(ElementsLeafToolsMod instance) {
-		super(instance, 147);
+		super(instance, 149);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

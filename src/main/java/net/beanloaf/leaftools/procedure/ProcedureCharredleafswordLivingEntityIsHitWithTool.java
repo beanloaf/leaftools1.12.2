@@ -9,7 +9,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureCharredleafswordLivingEntityIsHitWithTool extends ElementsLeafToolsMod.ModElement {
 	public ProcedureCharredleafswordLivingEntityIsHitWithTool(ElementsLeafToolsMod instance) {
-		super(instance, 163);
+		super(instance, 162);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

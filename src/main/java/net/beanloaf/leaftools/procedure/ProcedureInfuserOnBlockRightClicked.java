@@ -77,7 +77,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureInfuserOnBlockRightClicked extends ElementsLeafToolsMod.ModElement {
 	public ProcedureInfuserOnBlockRightClicked(ElementsLeafToolsMod instance) {
-		super(instance, 114);
+		super(instance, 116);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

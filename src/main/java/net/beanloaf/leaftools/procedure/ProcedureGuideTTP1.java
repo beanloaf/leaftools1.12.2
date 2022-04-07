@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureGuideTTP1 extends ElementsLeafToolsMod.ModElement {
 	public ProcedureGuideTTP1(ElementsLeafToolsMod instance) {
-		super(instance, 182);
+		super(instance, 181);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

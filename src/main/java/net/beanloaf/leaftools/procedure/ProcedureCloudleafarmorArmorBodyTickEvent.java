@@ -12,7 +12,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureCloudleafarmorArmorBodyTickEvent extends ElementsLeafToolsMod.ModElement {
 	public ProcedureCloudleafarmorArmorBodyTickEvent(ElementsLeafToolsMod instance) {
-		super(instance, 165);
+		super(instance, 164);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

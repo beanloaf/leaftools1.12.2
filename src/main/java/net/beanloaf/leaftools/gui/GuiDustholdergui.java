@@ -38,7 +38,7 @@ public class GuiDustholdergui extends ElementsLeafToolsMod.ModElement {
 	public static int GUIID = 5;
 	public static HashMap guistate = new HashMap();
 	public GuiDustholdergui(ElementsLeafToolsMod instance) {
-		super(instance, 148);
+		super(instance, 150);
 	}
 
 	@Override

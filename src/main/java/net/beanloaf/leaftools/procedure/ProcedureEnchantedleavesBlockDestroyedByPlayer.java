@@ -15,7 +15,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureEnchantedleavesBlockDestroyedByPlayer extends ElementsLeafToolsMod.ModElement {
 	public ProcedureEnchantedleavesBlockDestroyedByPlayer(ElementsLeafToolsMod instance) {
-		super(instance, 115);
+		super(instance, 117);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

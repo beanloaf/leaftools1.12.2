@@ -10,7 +10,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureAngelicpickaxeItemIsCraftedsmelted extends ElementsLeafToolsMod.ModElement {
 	public ProcedureAngelicpickaxeItemIsCraftedsmelted(ElementsLeafToolsMod instance) {
-		super(instance, 225);
+		super(instance, 224);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

@@ -35,7 +35,7 @@ public class ItemAngelicsword extends ElementsLeafToolsMod.ModElement {
 	@GameRegistry.ObjectHolder("leaf_tools:angelicsword")
 	public static final Item block = null;
 	public ItemAngelicsword(ElementsLeafToolsMod instance) {
-		super(instance, 235);
+		super(instance, 86);
 	}
 
 	@Override

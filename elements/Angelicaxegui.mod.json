@@ -1,0 +1,28 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 200,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 17,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Angelic Axe",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Angelic Axe",
+          "x": 177,
+          "y": 26
+        }
+      }
+    ]
+  }
+}

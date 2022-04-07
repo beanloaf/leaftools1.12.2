@@ -14,7 +14,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureSolargemRightClickedInAir extends ElementsLeafToolsMod.ModElement {
 	public ProcedureSolargemRightClickedInAir(ElementsLeafToolsMod instance) {
-		super(instance, 169);
+		super(instance, 168);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

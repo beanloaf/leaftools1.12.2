@@ -13,7 +13,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureInfuserbaseUpdateTick extends ElementsLeafToolsMod.ModElement {
 	public ProcedureInfuserbaseUpdateTick(ElementsLeafToolsMod instance) {
-		super(instance, 192);
+		super(instance, 191);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

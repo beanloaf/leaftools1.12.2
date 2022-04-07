@@ -20,7 +20,7 @@ import java.util.Map;
 @ElementsLeafToolsMod.ModElement.Tag
 public class ProcedureEnchantedtreesaplingUpdateTick extends ElementsLeafToolsMod.ModElement {
 	public ProcedureEnchantedtreesaplingUpdateTick(ElementsLeafToolsMod instance) {
-		super(instance, 118);
+		super(instance, 120);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {

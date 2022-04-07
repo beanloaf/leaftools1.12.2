@@ -24,9 +24,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.beanloaf.leaftools.procedure.ProcedureGuideTTPTOC;
-import net.beanloaf.leaftools.procedure.ProcedureGuideTTP15;
-import net.beanloaf.leaftools.procedure.ProcedureGuideTTP13;
 import net.beanloaf.leaftools.LeafToolsMod;
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -37,11 +34,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsLeafToolsMod.ModElement.Tag
-public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
-	public static int GUIID = 27;
+public class GuiAngelicaxegui extends ElementsLeafToolsMod.ModElement {
+	public static int GUIID = 37;
 	public static HashMap guistate = new HashMap();
-	public GuiGuidepage14(ElementsLeafToolsMod instance) {
-		super(instance, 205);
+	public GuiAngelicaxegui(ElementsLeafToolsMod instance) {
+		super(instance, 239);
 	}
 
 	@Override
@@ -69,9 +66,9 @@ public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 10 + 8 + sj * 18, 43 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 12 + 8 + sj * 18, 34 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 10 + 8 + si * 18, 43 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 12 + 8 + si * 18, 34 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -225,10 +222,10 @@ public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 400;
-			this.ySize = 210;
+			this.xSize = 200;
+			this.ySize = 200;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("leaf_tools:textures/guidepage_14.png");
+		private static final ResourceLocation texture = new ResourceLocation("leaf_tools:textures/angelicaxegui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -244,10 +241,6 @@ public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/guidedivider.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 191, this.guiTop + -1, 0, 0, 16, 210, 16, 210);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/dustholderrecipe.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 217, this.guiTop + 52, 0, 0, 179, 86, 179, 86);
 		}
 
 		@Override
@@ -267,19 +260,7 @@ public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("14", 5, 4, -16777216);
-			this.fontRenderer.drawString("In order to create Cloudleaf, you", 10, 34, -12829636);
-			this.fontRenderer.drawString("need to use an Essence Condenser.", 10, 43, -12829636);
-			this.fontRenderer.drawString("This is another multi-block", 10, 52, -12829636);
-			this.fontRenderer.drawString("structure.", 10, 61, -12829636);
-			this.fontRenderer.drawString("Essence Condenser", 51, 11, -12829636);
-			this.fontRenderer.drawString("Essence Condenser", 258, 11, -12829636);
-			this.fontRenderer.drawString("5x Enchantedwood Planks", 28, 83, -12829636);
-			this.fontRenderer.drawString("You'll need:", 10, 74, -12829636);
-			this.fontRenderer.drawString("Dust Holder", 271, 20, -12829636);
-			this.fontRenderer.drawString("4x Enchanted Leaves", 28, 92, -12829636);
-			this.fontRenderer.drawString("Dust Holder", 69, 20, -12829636);
-			this.fontRenderer.drawString("Make sure to craft 4 Dust Holders.", 10, 110, -12829636);
+			this.fontRenderer.drawString("Angelic Axe", 63, 6, -12829636);
 		}
 
 		@Override
@@ -291,13 +272,10 @@ public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
 		@Override
 		public void initGui() {
 			super.initGui();
-			this.guiLeft = (this.width - 400) / 2;
-			this.guiTop = (this.height - 210) / 2;
+			this.guiLeft = (this.width - 200) / 2;
+			this.guiTop = (this.height - 200) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 343, this.guiTop + 182, 45, 20, "Next"));
-			this.buttonList.add(new GuiButton(1, this.guiLeft + 213, this.guiTop + 182, 45, 20, "Back"));
-			this.buttonList.add(new GuiButton(2, this.guiLeft + 281, this.guiTop + 182, 40, 20, "ToC"));
 		}
 
 		@Override
@@ -412,39 +390,6 @@ public class GuiGuidepage14 extends ElementsLeafToolsMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureGuideTTP15.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 1) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureGuideTTP13.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 2) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				$_dependencies.put("x", x);
-				$_dependencies.put("y", y);
-				$_dependencies.put("z", z);
-				$_dependencies.put("world", world);
-				ProcedureGuideTTPTOC.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {
