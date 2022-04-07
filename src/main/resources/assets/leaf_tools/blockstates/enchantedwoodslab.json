@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "leaf_tools:enchantedwoodslab"
+    },
+    "half=top,variant=default": {
+      "model": "leaf_tools:enchantedwoodslab_top"
+    }
+  }
+}

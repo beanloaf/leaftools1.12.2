@@ -1,0 +1,301 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "3",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "3",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You can repeat this process for",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You can repeat this process for",
+          "x": 24,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Goldleaf and Diamondleaf, both",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Goldleaf and Diamondleaf, both",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "of which are better than their",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "of which are better than their",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "counterparts.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "counterparts.",
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Once you gather an abundance of",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Once you gather an abundance of",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "supplies, you can move into the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "supplies, you can move into the",
+          "x": 24,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "next stage of progression:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "next stage of progression:",
+          "x": 24,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Infuser.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "the Infuser.",
+          "x": 24,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Getting Started",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Getting Started",
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 294,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP4"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP2"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Infuser is the first multi-block",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Infuser is the first multi-block",
+          "x": 222,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "structure in progression.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "structure in progression.",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "It's used to transform tools into",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "It's used to transform tools into",
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "ones that have unique properties,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ones that have unique properties,",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "create special items, and, more",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "create special items, and, more",
+          "x": 222,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "importantly, created Enchanted Tree",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "importantly, created Enchanted Tree",
+          "x": 222,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Saplings.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Saplings.",
+          "x": 222,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      }
+    ]
+  }
+}

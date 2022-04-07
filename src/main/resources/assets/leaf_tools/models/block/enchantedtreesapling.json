@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "leaf_tools:blocks/enchantedtreesapling",
+    "particle": "leaf_tools:blocks/enchantedtreesapling"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/enchantedwoodplank",
+    "up": "leaf_tools:blocks/enchantedwoodplank",
+    "north": "leaf_tools:blocks/enchantedwoodplank",
+    "east": "leaf_tools:blocks/enchantedwoodplank",
+    "south": "leaf_tools:blocks/enchantedwoodplank",
+    "west": "leaf_tools:blocks/enchantedwoodplank",
+    "particle": "leaf_tools:blocks/enchantedwoodplank"
+  }
+}

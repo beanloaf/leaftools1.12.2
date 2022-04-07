@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/solarcast",
+    "up": "leaf_tools:blocks/solarcast",
+    "north": "leaf_tools:blocks/solarcast",
+    "east": "leaf_tools:blocks/solarcast",
+    "south": "leaf_tools:blocks/solarcast",
+    "west": "leaf_tools:blocks/solarcast",
+    "particle": "leaf_tools:blocks/solarcast"
+  }
+}

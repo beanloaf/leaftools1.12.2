@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IronleafarmorArmor.legs"
+    },
+    "name": "ironleafarmor_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

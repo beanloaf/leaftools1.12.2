@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "leaf_tools:enchantedwoodlog"
+    },
+    "facing=south": {
+      "model": "leaf_tools:enchantedwoodlog"
+    },
+    "facing=north": {
+      "model": "leaf_tools:enchantedwoodlog"
+    },
+    "facing=east": {
+      "model": "leaf_tools:enchantedwoodlog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "leaf_tools:enchantedwoodlog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "leaf_tools:enchantedwoodlog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "leaf_tools:enchantedwoodlog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

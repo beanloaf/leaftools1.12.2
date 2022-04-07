@@ -1,0 +1,39 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "hammerbase",
+    "customModelName": "Normal",
+    "name": "Angelic Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Leaftools"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 9,
+    "efficiency": 12.0,
+    "attackSpeed": 1.8,
+    "enchantability": 25,
+    "damageVsEntity": 8.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "glowCondition": {
+      "name": "Angelicpickaxeglow"
+    },
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "AngelicpickaxeRightClickedInAir"
+    },
+    "onCrafted": {
+      "name": "AngelicpickaxeItemIsCraftedsmelted"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "AngelicpickaxeBlockDestroyedWithTool"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GoldleafarmorArmor.legs"
+    },
+    "name": "goldleafarmor_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

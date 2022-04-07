@@ -1,0 +1,259 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "4",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "4",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Leaves (from vanilla trees)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Leaves (from vanilla trees)",
+          "x": 33,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2x Ironleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2x Ironleaf",
+          "x": 33,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "2x Goldleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "2x Goldleaf",
+          "x": 33,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Diamondleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Diamondleaf",
+          "x": 33,
+          "y": 121
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 294,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP5"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP3"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The first step of crafting",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The first step of crafting",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Infuser is crafting Nature",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "the Infuser is crafting Nature",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Make sure to craft 2 of these.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Make sure to craft 2 of these.",
+          "x": 24,
+          "y": 130
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "naturecorerecipe.png",
+          "use1Xscale": true,
+          "name": "naturecorerecipe.png",
+          "x": 222,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nature Core",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Nature Core",
+          "x": 78,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nature Core",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Nature Core",
+          "x": 285,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cores.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cores.",
+          "x": 24,
+          "y": 71
+        }
+      }
+    ]
+  }
+}

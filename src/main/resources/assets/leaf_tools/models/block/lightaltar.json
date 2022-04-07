@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/lightaltar",
+    "up": "leaf_tools:blocks/lightaltar",
+    "north": "leaf_tools:blocks/lightaltar",
+    "east": "leaf_tools:blocks/lightaltar",
+    "south": "leaf_tools:blocks/lightaltar",
+    "west": "leaf_tools:blocks/lightaltar",
+    "particle": "leaf_tools:blocks/lightaltar"
+  }
+}

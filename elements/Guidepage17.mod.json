@@ -1,0 +1,233 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "17",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "17",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Now that you have your Essense",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Now that you have your Essense",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Condenser set up, you'll need to",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Condenser set up, you'll need to",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 65,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 272,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP18"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP16"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Enchantedwood Planks",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Enchantedwood Planks",
+          "x": 42,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essense Base",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essense Base",
+          "x": 285,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Base",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Base",
+          "x": 74,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Glowstone Dust",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Glowstone Dust",
+          "x": 42,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "craft Essense Bases to hold any",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "craft Essense Bases to hold any",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "essence that you make.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "essence that you make.",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "essencebaserecipe.png",
+          "use1Xscale": true,
+          "name": "essencebaserecipe.png",
+          "x": 227,
+          "y": 71
+        }
+      }
+    ]
+  }
+}

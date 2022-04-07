@@ -1,0 +1,19 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "leaf_tools:goldleafpickaxe"
+    },
+    {
+      "item": "leaf_tools:goldleafshovel"
+    },
+    {
+      "item": "leaf_tools:goldleafaxe"
+    }
+  ],
+  "result": {
+    "item": "leaf_tools:goldleafmultitool",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "1": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:diamondleafaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "charredleafaxe",
+    "customModelName": "Normal",
+    "name": "Charredleaf Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Leaftools"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 3,
+    "efficiency": 11.0,
+    "attackSpeed": 1.0,
+    "enchantability": 19,
+    "damageVsEntity": 10.0,
+    "usageCount": 700,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Charredleaf"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "CharredleafswordLivingEntityIsHitWithTool"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "CharredleafpickaxeBlockDestroyedWithTool"
+    }
+  }
+}

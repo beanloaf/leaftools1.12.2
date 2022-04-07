@@ -1,0 +1,368 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "20",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "20",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Back at the Infuser, follow the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Back at the Infuser, follow the",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "recipe to make Cloudmulch, which you",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "recipe to make Cloudmulch, which you",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "can smelt into Cloudleaf.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "can smelt into Cloudleaf.",
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 294,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP21"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP19"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloudmulch",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloudmulch",
+          "x": 78,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloudmulch",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloudmulch",
+          "x": 285,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserbase.png",
+          "use1Xscale": true,
+          "name": "infuserbase.png",
+          "x": 294,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserside.png",
+          "use1Xscale": true,
+          "name": "infuserside.png",
+          "x": 294,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Held",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Held",
+          "x": 353,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 258,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 348,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Base",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Base",
+          "x": 263,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 348,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Produces",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Produces",
+          "x": 344,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Ironleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Ironleaf",
+          "x": 51,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Cloud Essence",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Cloud Essence",
+          "x": 51,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 247,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 336,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 335,
+          "y": 161
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cloudessence.png",
+          "use1Xscale": false,
+          "name": "cloudessence.png",
+          "x": 266,
+          "y": 113
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ironleaf.png",
+          "use1Xscale": false,
+          "name": "ironleaf.png",
+          "x": 355,
+          "y": 83
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cloudleaf.png",
+          "use1Xscale": false,
+          "name": "cloudleaf.png",
+          "x": 356,
+          "y": 159
+        }
+      }
+    ]
+  }
+}

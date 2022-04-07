@@ -1,0 +1,55 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Leaf Tools!",
+          "color": {
+            "value": -16724992,
+            "falpha": 0.0
+          },
+          "name": "Leaf Tools!",
+          "x": 177,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Mod made by: beanloaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Mod made by: beanloaf",
+          "x": 159,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      }
+    ]
+  }
+}

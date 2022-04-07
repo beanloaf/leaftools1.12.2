@@ -1,0 +1,31 @@
+{
+  "_fv": 18,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "goldleafsword",
+    "customModelName": "Normal",
+    "name": "Goldleaf Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Leaftools"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 3,
+    "efficiency": 11.0,
+    "attackSpeed": 1.8,
+    "enchantability": 23,
+    "damageVsEntity": 8.0,
+    "usageCount": 150,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Goldleaf"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

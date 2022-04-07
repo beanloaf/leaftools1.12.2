@@ -1,0 +1,246 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "14",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "14",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "In order to create Cloudleaf, you",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "In order to create Cloudleaf, you",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "need to use an Essence Condenser.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "need to use an Essence Condenser.",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This is another multi-block",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This is another multi-block",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "structure.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "structure.",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 65,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 272,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP15"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP13"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "5x Enchantedwood Planks",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "5x Enchantedwood Planks",
+          "x": 42,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Holder",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Holder",
+          "x": 285,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Enchanted Leaves",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Enchanted Leaves",
+          "x": 42,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Holder",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Holder",
+          "x": 83,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Make sure to craft 4 Dust Holders.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Make sure to craft 4 Dust Holders.",
+          "x": 24,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholderrecipe.png",
+          "use1Xscale": true,
+          "name": "dustholderrecipe.png",
+          "x": 231,
+          "y": 67
+        }
+      }
+    ]
+  }
+}

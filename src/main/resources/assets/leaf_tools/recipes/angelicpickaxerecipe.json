@@ -1,0 +1,16 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:angelicpickaxe"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:angelicpickaxe",
+    "count": 1
+  }
+}

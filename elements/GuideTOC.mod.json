@@ -1,0 +1,111 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Table of Contents",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Table of Contents",
+          "x": 168,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Introduction",
+          "onClick": {
+            "name": "GuideTTP1"
+          },
+          "width": 85,
+          "height": 20,
+          "name": "Introduction",
+          "x": 33,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Getting Started",
+          "onClick": {
+            "name": "GuideTTP1"
+          },
+          "width": 100,
+          "height": 20,
+          "name": "Getting Started",
+          "x": 33,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTTitle"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP1"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Infuser",
+          "onClick": {
+            "name": "GuideTTP3"
+          },
+          "width": 60,
+          "height": 20,
+          "name": "Infuser",
+          "x": 33,
+          "y": 98
+        }
+      }
+    ]
+  }
+}

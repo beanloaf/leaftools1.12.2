@@ -1,0 +1,414 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "16",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "16",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Now, you'll need to assemble the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Now, you'll need to assemble the",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "structure for the Essence Condenser.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "structure for the Essence Condenser.",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 65,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 272,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP17"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP15"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Essence Condenser",
+          "x": 42,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Setup",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Setup",
+          "x": 299,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Dust Holders",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Dust Holders",
+          "x": 42,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Setup",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Setup",
+          "x": 87,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Nature Core",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Nature Core",
+          "x": 42,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "naturecore.png",
+          "use1Xscale": true,
+          "name": "naturecore.png",
+          "x": 303,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 303,
+          "y": 87
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 319,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 287,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 303,
+          "y": 55
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "(Top View)",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "(Top View)",
+          "x": 344,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Layer 1",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Layer 1",
+          "x": 227,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Surround a Nature Core with Dust ",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Surround a Nature Core with Dust ",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Holders, then put an Essence",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Holders, then put an Essence",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Condenser on top of the Nature Core.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Condenser on top of the Nature Core.",
+          "x": 24,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Layer 2",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Layer 2",
+          "x": 227,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "essencecondenser.png",
+          "use1Xscale": true,
+          "name": "essencecondenser.png",
+          "x": 303,
+          "y": 125
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "If done correctly, particles will",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "If done correctly, particles will",
+          "x": 227,
+          "y": 166
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "spawn above the Essense Condenser.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "spawn above the Essense Condenser.",
+          "x": 227,
+          "y": 175
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholderclear.png",
+          "use1Xscale": true,
+          "name": "dustholderclear.png",
+          "x": 319,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholderclear.png",
+          "use1Xscale": true,
+          "name": "dustholderclear.png",
+          "x": 287,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholderclear.png",
+          "use1Xscale": true,
+          "name": "dustholderclear.png",
+          "x": 303,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholderclear.png",
+          "use1Xscale": true,
+          "name": "dustholderclear.png",
+          "x": 303,
+          "y": 141
+        }
+      }
+    ]
+  }
+}

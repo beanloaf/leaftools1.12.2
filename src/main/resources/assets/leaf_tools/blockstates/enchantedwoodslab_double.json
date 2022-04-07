@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "leaf_tools:enchantedwoodslab_double"
+    }
+  }
+}

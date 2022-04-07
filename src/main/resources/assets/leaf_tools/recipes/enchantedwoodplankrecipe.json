@@ -1,0 +1,13 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "leaf_tools:enchantedwoodlog"
+    }
+  ],
+  "result": {
+    "item": "leaf_tools:enchantedwoodplank",
+    "count": 4
+  }
+}

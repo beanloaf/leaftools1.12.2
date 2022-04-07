@@ -1,0 +1,17 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:leaves",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "leaf_tools:guide",
+    "count": 1
+  }
+}

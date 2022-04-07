@@ -1,0 +1,220 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "6",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "6",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Nature Core",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Nature Core",
+          "x": 33,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "8x Ironleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "8x Ironleaf",
+          "x": 33,
+          "y": 116
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 294,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP7"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP5"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The next step is to craft an Infuser.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The next step is to craft an Infuser.",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This will sit on top of the Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This will sit on top of the Infuser",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Base.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Base.",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 294,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserrecipe.png",
+          "use1Xscale": true,
+          "name": "infuserrecipe.png",
+          "x": 227,
+          "y": 67
+        }
+      }
+    ]
+  }
+}

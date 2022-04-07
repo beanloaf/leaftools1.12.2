@@ -1,0 +1,19 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "leaf_tools:diamondleafpickaxe"
+    },
+    {
+      "item": "leaf_tools:diamondleafshovel"
+    },
+    {
+      "item": "leaf_tools:diamondleafaxe"
+    }
+  ],
+  "result": {
+    "item": "leaf_tools:diamondleafmultitool",
+    "count": 1
+  }
+}

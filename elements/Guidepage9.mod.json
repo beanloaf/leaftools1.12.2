@@ -1,0 +1,381 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "9",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "9",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The first item you need to make is",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The first item you need to make is",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "an Enchanted Sapling, from which the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "an Enchanted Sapling, from which the",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "leaves and wood are used in many",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "leaves and wood are used in many",
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 285,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP10"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP8"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enchanted Sapling",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Enchanted Sapling",
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enchanted Sapling",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Enchanted Sapling",
+          "x": 267,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserbase.png",
+          "use1Xscale": true,
+          "name": "infuserbase.png",
+          "x": 294,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserside.png",
+          "use1Xscale": true,
+          "name": "infuserside.png",
+          "x": 294,
+          "y": 75
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "recipes.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "recipes.",
+          "x": 24,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Held",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Held",
+          "x": 353,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 258,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 348,
+          "y": 152
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Base",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Base",
+          "x": 263,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "enchantedtreesaplingitem.png",
+          "use1Xscale": false,
+          "name": "enchantedtreesaplingitem.png",
+          "x": 356,
+          "y": 160
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 348,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamondleaf.png",
+          "use1Xscale": false,
+          "name": "diamondleaf.png",
+          "x": 357,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Produces",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Produces",
+          "x": 344,
+          "y": 143
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamondmulch.png",
+          "use1Xscale": false,
+          "name": "diamondmulch.png",
+          "x": 266,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Diamondmulch",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Diamondmulch",
+          "x": 51,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Diamondleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Diamondleaf",
+          "x": 51,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 247,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 336,
+          "y": 85
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 335,
+          "y": 161
+        }
+      }
+    ]
+  }
+}

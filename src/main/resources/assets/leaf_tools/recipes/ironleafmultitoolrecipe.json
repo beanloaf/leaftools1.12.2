@@ -1,0 +1,19 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "leaf_tools:ironleafpickaxe"
+    },
+    {
+      "item": "leaf_tools:ironleafshovel"
+    },
+    {
+      "item": "leaf_tools:ironleafaxe"
+    }
+  ],
+  "result": {
+    "item": "leaf_tools:ironleafmultitool",
+    "count": 1
+  }
+}

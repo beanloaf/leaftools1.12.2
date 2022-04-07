@@ -1,0 +1,39 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "2": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "3": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "4": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "5": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "6": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "7": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "8": {
+      "item": "leaf_tools:goldleaf"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:goldleafarmor_armorbody",
+    "count": 1
+  }
+}

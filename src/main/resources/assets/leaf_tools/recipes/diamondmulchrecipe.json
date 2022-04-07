@@ -1,0 +1,50 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:dirt",
+      "data": 32767
+    },
+    "1": {
+      "item": "minecraft:leaves",
+      "data": 32767
+    },
+    "2": {
+      "item": "minecraft:dirt",
+      "data": 32767
+    },
+    "3": {
+      "item": "minecraft:leaves",
+      "data": 32767
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:leaves",
+      "data": 32767
+    },
+    "6": {
+      "item": "minecraft:dirt",
+      "data": 32767
+    },
+    "7": {
+      "item": "minecraft:leaves",
+      "data": 32767
+    },
+    "8": {
+      "item": "minecraft:dirt",
+      "data": 32767
+    }
+  },
+  "result": {
+    "item": "leaf_tools:diamondmulch",
+    "count": 1
+  }
+}

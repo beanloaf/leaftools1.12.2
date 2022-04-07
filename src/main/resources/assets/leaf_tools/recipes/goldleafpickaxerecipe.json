@@ -1,0 +1,30 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "1": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "2": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:goldleafpickaxe",
+    "count": 1
+  }
+}

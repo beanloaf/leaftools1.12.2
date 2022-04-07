@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/dustextractortop",
+    "up": "leaf_tools:blocks/dustextractortop",
+    "north": "leaf_tools:blocks/dustextractorfront",
+    "east": "leaf_tools:blocks/dustextractorside",
+    "south": "leaf_tools:blocks/dustextractorside",
+    "west": "leaf_tools:blocks/dustextractorside",
+    "particle": "leaf_tools:blocks/dustextractortop"
+  }
+}

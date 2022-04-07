@@ -1,0 +1,233 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "13",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "13",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Now that you have 9 dust, you need",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Now that you have 9 dust, you need",
+          "x": 24,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to condense it to use it in the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "to condense it to use it in the",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser. Simply fill a",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser. Simply fill a",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "crafting table grid with 9  Dust,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "crafting table grid with 9  Dust,",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Extractor",
+          "x": 74,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Extractor",
+          "x": 276,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP14"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP12"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "and you'll receive Packed Dust.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "and you'll receive Packed Dust.",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "9x of any Dust",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "9x of any Dust",
+          "x": 47,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Make at least 4 Packed Dust before",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Make at least 4 Packed Dust before",
+          "x": 24,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "moving on.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "moving on.",
+          "x": 24,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustrecipe.png",
+          "use1Xscale": true,
+          "name": "dustrecipe.png",
+          "x": 222,
+          "y": 71
+        }
+      }
+    ]
+  }
+}

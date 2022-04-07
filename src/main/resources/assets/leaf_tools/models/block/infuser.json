@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/infuserbasetopbot",
+    "up": "leaf_tools:blocks/infuserbasetopbot",
+    "north": "leaf_tools:blocks/infuserside",
+    "east": "leaf_tools:blocks/infuserside",
+    "south": "leaf_tools:blocks/infuserside",
+    "west": "leaf_tools:blocks/infuserside",
+    "particle": "leaf_tools:blocks/infuserbasetopbot"
+  }
+}

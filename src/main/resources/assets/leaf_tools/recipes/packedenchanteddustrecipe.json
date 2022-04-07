@@ -1,0 +1,42 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "1": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "2": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "3": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "4": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "5": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "6": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "7": {
+      "item": "leaf_tools:enchanteddust"
+    },
+    "8": {
+      "item": "leaf_tools:enchanteddust"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:packedenchanteddust",
+    "count": 1
+  }
+}

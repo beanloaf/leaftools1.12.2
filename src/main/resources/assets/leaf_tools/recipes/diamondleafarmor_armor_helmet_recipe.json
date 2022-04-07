@@ -1,0 +1,29 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "1": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "2": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "3": {
+      "item": "leaf_tools:diamondleaf"
+    },
+    "5": {
+      "item": "leaf_tools:diamondleaf"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:diamondleafarmor_armorhelmet",
+    "count": 1
+  }
+}

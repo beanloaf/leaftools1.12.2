@@ -1,0 +1,23 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "1": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "2": {
+      "item": "leaf_tools:enchantedwoodplank"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:enchantedwoodslab",
+    "data": 0,
+    "count": 6
+  }
+}

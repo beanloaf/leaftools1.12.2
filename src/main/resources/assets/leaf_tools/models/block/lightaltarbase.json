@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "leaf_tools:blocks/lightaltarbase",
+    "particle": "leaf_tools:blocks/lightaltarbase"
+  }
+}

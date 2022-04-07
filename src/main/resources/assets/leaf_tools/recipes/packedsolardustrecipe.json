@@ -1,0 +1,37 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    },
+    {
+      "item": "leaf_tools:solardust"
+    }
+  ],
+  "result": {
+    "item": "leaf_tools:packedsolardust",
+    "count": 1
+  }
+}

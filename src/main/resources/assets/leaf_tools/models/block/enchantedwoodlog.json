@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/enchantedwoodtop",
+    "up": "leaf_tools:blocks/enchantedwoodtop",
+    "north": "leaf_tools:blocks/enchantedwoodsides",
+    "east": "leaf_tools:blocks/enchantedwoodsides",
+    "south": "leaf_tools:blocks/enchantedwoodsides",
+    "west": "leaf_tools:blocks/enchantedwoodsides",
+    "particle": "leaf_tools:blocks/enchantedwoodtop"
+  }
+}

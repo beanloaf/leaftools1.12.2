@@ -1,0 +1,342 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "8",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "8",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To use the Infuser, place items in",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "To use the Infuser, place items in",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Infuser Base and, with a certain",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "the Infuser Base and, with a certain",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "item in your main hand, right-click",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "item in your main hand, right-click",
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 294,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP9"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP7"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Recipes in this book are going to be",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Recipes in this book are going to be",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "notated like this, for reference:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "notated like this, for reference:",
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Use",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Use",
+          "x": 96,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Use",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Use",
+          "x": 303,
+          "y": 35
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserbase.png",
+          "use1Xscale": true,
+          "name": "infuserbase.png",
+          "x": 294,
+          "y": 121
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuserside.png",
+          "use1Xscale": true,
+          "name": "infuserside.png",
+          "x": 294,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "the Infuser. The product will be",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "the Infuser. The product will be",
+          "x": 24,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Held",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Held",
+          "x": 371,
+          "y": 98
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 259,
+          "y": 121
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 362,
+          "y": 161
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Base",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Base",
+          "x": 236,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "enchantedmulch.png",
+          "use1Xscale": false,
+          "name": "enchantedmulch.png",
+          "x": 370,
+          "y": 169
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "infuseritemslot.png",
+          "use1Xscale": false,
+          "name": "infuseritemslot.png",
+          "x": 334,
+          "y": 89
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamondleaf.png",
+          "use1Xscale": false,
+          "name": "diamondleaf.png",
+          "x": 342,
+          "y": 97
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "dropped on the ground.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "dropped on the ground.",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Produces",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Produces",
+          "x": 317,
+          "y": 170
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "diamondmulch.png",
+          "use1Xscale": false,
+          "name": "diamondmulch.png",
+          "x": 267,
+          "y": 129
+        }
+      }
+    ]
+  }
+}

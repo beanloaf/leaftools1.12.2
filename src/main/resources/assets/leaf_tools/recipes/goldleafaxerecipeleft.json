@@ -1,0 +1,30 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "1": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "2": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:goldleafaxe",
+    "count": 1
+  }
+}

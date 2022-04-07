@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:IronleafarmorArmor.boots"
+    },
+    "name": "ironleafarmor_armor_boots_recipe",
+    "namespace": "mod"
+  }
+}

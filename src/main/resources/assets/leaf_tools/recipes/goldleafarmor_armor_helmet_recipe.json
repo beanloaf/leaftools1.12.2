@@ -1,0 +1,29 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "1": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "2": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "3": {
+      "item": "leaf_tools:goldleaf"
+    },
+    "5": {
+      "item": "leaf_tools:goldleaf"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:goldleafarmor_armorhelmet",
+    "count": 1
+  }
+}

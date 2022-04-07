@@ -1,0 +1,220 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "2",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "2",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ironmulch can be smelted into",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ironmulch can be smelted into",
+          "x": 24,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ironleaf, which creates tools and",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ironleaf, which creates tools and",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "equipment that are better than",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "equipment that are better than",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "normal iron tools.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "normal iron tools.",
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Getting Started",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Getting Started",
+          "x": 78,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Getting Started",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Getting Started",
+          "x": 276,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP3"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP1"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You also may want to craft a",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You also may want to craft a",
+          "x": 222,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Ironleaf multitool, which are a",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Ironleaf multitool, which are a",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "combined pickaxe, axe, and shovel",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "combined pickaxe, axe, and shovel",
+          "x": 222,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "combined.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "combined.",
+          "x": 222,
+          "y": 71
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "ironleafmultitoolrecipe.png",
+          "use1Xscale": true,
+          "name": "ironleafmultitoolrecipe.png",
+          "x": 227,
+          "y": 107
+        }
+      }
+    ]
+  }
+}

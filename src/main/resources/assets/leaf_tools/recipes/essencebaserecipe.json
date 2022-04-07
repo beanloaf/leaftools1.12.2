@@ -1,0 +1,30 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "3": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "4": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "5": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "7": {
+      "item": "leaf_tools:enchantedwoodplank"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:essencebase",
+    "count": 2
+  }
+}

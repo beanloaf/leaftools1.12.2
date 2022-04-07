@@ -1,0 +1,233 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "11",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "11",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "The Dust Extractor is a block that",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "The Dust Extractor is a block that",
+          "x": 24,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "processes enchanted leaves along",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "processes enchanted leaves along",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with dust to create a new dust,",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "with dust to create a new dust,",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "which can be turned into Essence",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "which can be turned into Essence",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Extractor",
+          "x": 74,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Extractor",
+          "x": 276,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP12"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP10"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustesxtractorrecipe.png",
+          "use1Xscale": true,
+          "name": "dustesxtractorrecipe.png",
+          "x": 227,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "via Essence Extractor.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "via Essence Extractor.",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 38,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Infuser",
+          "x": 47,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Ironleaf",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Ironleaf",
+          "x": 47,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Enchantedwood Planks",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Enchantedwood Planks",
+          "x": 47,
+          "y": 116
+        }
+      }
+    ]
+  }
+}

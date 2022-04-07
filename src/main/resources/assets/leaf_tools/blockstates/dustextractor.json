@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "leaf_tools:dustextractor"
+    },
+    "facing=north": {
+      "model": "leaf_tools:dustextractor"
+    },
+    "facing=east": {
+      "model": "leaf_tools:dustextractor",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "leaf_tools:dustextractor",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "leaf_tools:dustextractor",
+      "y": 270
+    }
+  }
+}

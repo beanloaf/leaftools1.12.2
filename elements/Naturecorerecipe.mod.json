@@ -1,0 +1,46 @@
+{
+  "_fv": 18,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.LEAVES"
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": "Blocks.LEAVES"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "CUSTOM:Diamondleaf"
+      },
+      {
+        "value": "CUSTOM:Ironleaf"
+      },
+      {
+        "value": "Blocks.LEAVES"
+      },
+      {
+        "value": "CUSTOM:Goldleaf"
+      },
+      {
+        "value": "Blocks.LEAVES"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Naturecore"
+    },
+    "name": "naturecorerecipe",
+    "namespace": "mod"
+  }
+}

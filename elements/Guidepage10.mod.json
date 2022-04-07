@@ -1,0 +1,197 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "10",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "10",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Although there are many more",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Although there are many more",
+          "x": 24,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "recipes for the Infuser, you won't",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "recipes for the Infuser, you won't",
+          "x": 24,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "be able to make any without the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "be able to make any without the",
+          "x": 24,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Infuser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Infuser",
+          "x": 87,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP11"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP9"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Enchanted Sapling",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Enchanted Sapling",
+          "x": 69,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "other two components: the Dust",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "other two components: the Dust",
+          "x": 24,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Extractor and Essence Condenser.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Extractor and Essence Condenser.",
+          "x": 24,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "So for the time being, harvest the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "So for the time being, harvest the",
+          "x": 24,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "entire tree and stash them away.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "entire tree and stash them away.",
+          "x": 24,
+          "y": 107
+        }
+      }
+    ]
+  }
+}

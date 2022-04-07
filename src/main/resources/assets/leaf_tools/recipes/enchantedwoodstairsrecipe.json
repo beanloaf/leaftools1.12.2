@@ -1,0 +1,33 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "3": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "4": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "6": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "7": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "8": {
+      "item": "leaf_tools:enchantedwoodplank"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:enchantedwoodstairs",
+    "count": 1
+  }
+}

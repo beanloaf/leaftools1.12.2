@@ -1,0 +1,400 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "12",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "12",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Let's take Cloud Dust, for example.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Let's take Cloud Dust, for example.",
+          "x": 24,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloud dust is the main component to",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloud dust is the main component to",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "craft Cloudleaf, which imbues tools",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "craft Cloudleaf, which imbues tools",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "with Silk Touch and equipment with",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "with Silk Touch and equipment with",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Extractor",
+          "x": 74,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dust Extractor",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Dust Extractor",
+          "x": 276,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP13"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP11"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "fall damage negation.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "fall damage negation.",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 38,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Enchanted Leaves",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Enchanted Leaves",
+          "x": 47,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Sugar",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Sugar",
+          "x": 47,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustextractorinput.png",
+          "use1Xscale": true,
+          "name": "dustextractorinput.png",
+          "x": 231,
+          "y": 89
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "This is what the GUI of the Dust",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "This is what the GUI of the Dust",
+          "x": 231,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Extractor looks like, and recipes",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Extractor looks like, and recipes",
+          "x": 231,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "in this guide will have this",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "in this guide will have this",
+          "x": 231,
+          "y": 62
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "layout:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "layout:",
+          "x": 231,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "enchantedleaves.png",
+          "use1Xscale": true,
+          "name": "enchantedleaves.png",
+          "x": 269,
+          "y": 119
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 254,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 254,
+          "y": 157
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 312,
+          "y": 139
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bluebox.png",
+          "use1Xscale": true,
+          "name": "bluebox.png",
+          "x": 348,
+          "y": 134
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Drop",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Drop",
+          "x": 351,
+          "y": 125
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clouddust.png",
+          "use1Xscale": false,
+          "name": "clouddust.png",
+          "x": 352,
+          "y": 138
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "sugar.png",
+          "use1Xscale": false,
+          "name": "sugar.png",
+          "x": 270,
+          "y": 155
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 335,
+          "y": 141
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Make at least 9 dust before moving",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Make at least 9 dust before moving",
+          "x": 24,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "on.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "on.",
+          "x": 24,
+          "y": 130
+        }
+      }
+    ]
+  }
+}

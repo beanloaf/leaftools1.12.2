@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/essencecondenser",
+    "up": "leaf_tools:blocks/essencecondenser",
+    "north": "leaf_tools:blocks/essencecondenser",
+    "east": "leaf_tools:blocks/essencecondenser",
+    "south": "leaf_tools:blocks/essencecondenser",
+    "west": "leaf_tools:blocks/essencecondenser",
+    "particle": "leaf_tools:blocks/essencecondenser"
+  }
+}

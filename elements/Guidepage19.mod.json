@@ -1,0 +1,408 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 400,
+    "height": 210,
+    "inventoryOffsetX": -102,
+    "inventoryOffsetY": 21,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "19",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "19",
+          "x": 19,
+          "y": 19
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Now that we have all the needed",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Now that we have all the needed",
+          "x": 24,
+          "y": 49
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "structures and materials, let's make",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "structures and materials, let's make",
+          "x": 24,
+          "y": 58
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "guidedivider.png",
+          "use1Xscale": false,
+          "name": "guidedivider.png",
+          "x": 205,
+          "y": 14
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 65,
+          "y": 26
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser",
+          "x": 272,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "GuideTTP20"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Next",
+          "x": 357,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "GuideTTP18"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Back",
+          "x": 227,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ToC",
+          "onClick": {
+            "name": "GuideTTPTOC"
+          },
+          "width": 40,
+          "height": 20,
+          "name": "ToC",
+          "x": 295,
+          "y": 197
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloud Essense",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloud Essense",
+          "x": 281,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloud Essense",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloud Essense",
+          "x": 74,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloud Essence. Put 1 Cloud Packed",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloud Essence. Put 1 Cloud Packed",
+          "x": 24,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cloud Dust in each of the Dust",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cloud Dust in each of the Dust",
+          "x": 24,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Holders, and right-click the",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Holders, and right-click the",
+          "x": 24,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "essencecondenser.png",
+          "use1Xscale": true,
+          "name": "essencecondenser.png",
+          "x": 263,
+          "y": 103
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bluebox.png",
+          "use1Xscale": true,
+          "name": "bluebox.png",
+          "x": 258,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 236,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 254,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 272,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "dustholder.png",
+          "use1Xscale": true,
+          "name": "dustholder.png",
+          "x": 290,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bluebox.png",
+          "use1Xscale": true,
+          "name": "bluebox.png",
+          "x": 258,
+          "y": 152
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 316,
+          "y": 120
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bluebox.png",
+          "use1Xscale": true,
+          "name": "bluebox.png",
+          "x": 353,
+          "y": 116
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x",
+          "x": 247,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x",
+          "x": 247,
+          "y": 157
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "essencebase.png",
+          "use1Xscale": false,
+          "name": "essencebase.png",
+          "x": 262,
+          "y": 80
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Essence Condenser with a Essense",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Essence Condenser with a Essense",
+          "x": 24,
+          "y": 94
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Base.",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Base.",
+          "x": 24,
+          "y": 103
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "You'll need:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "You'll need:",
+          "x": 33,
+          "y": 112
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "1x Essence Base",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "1x Essence Base",
+          "x": 47,
+          "y": 121
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "4x Packed Cloud Dust",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "4x Packed Cloud Dust",
+          "x": 47,
+          "y": 130
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cloudessence.png",
+          "use1Xscale": false,
+          "name": "cloudessence.png",
+          "x": 357,
+          "y": 120
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "packedclouddust.png",
+          "use1Xscale": false,
+          "name": "packedclouddust.png",
+          "x": 262,
+          "y": 156
+        }
+      }
+    ]
+  }
+}

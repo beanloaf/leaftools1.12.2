@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "leaf_tools:blocks/naturecore",
+    "up": "leaf_tools:blocks/naturecore",
+    "north": "leaf_tools:blocks/naturecore",
+    "east": "leaf_tools:blocks/naturecore",
+    "south": "leaf_tools:blocks/naturecore",
+    "west": "leaf_tools:blocks/naturecore",
+    "particle": "leaf_tools:blocks/naturecore"
+  }
+}

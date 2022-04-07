@@ -1,0 +1,42 @@
+{
+  "group": "leaf_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "leaf_tools:ironleaf"
+    },
+    "1": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "2": {
+      "item": "leaf_tools:ironleaf"
+    },
+    "3": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "4": {
+      "item": "leaf_tools:infuser"
+    },
+    "5": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "6": {
+      "item": "leaf_tools:ironleaf"
+    },
+    "7": {
+      "item": "leaf_tools:enchantedwoodplank"
+    },
+    "8": {
+      "item": "leaf_tools:ironleaf"
+    }
+  },
+  "result": {
+    "item": "leaf_tools:dustextractor",
+    "count": 1
+  }
+}

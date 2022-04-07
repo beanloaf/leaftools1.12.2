@@ -1,0 +1,144 @@
+{
+  "_fv": 18,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 300,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 15,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Angelic Sword",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Angelic Sword",
+          "x": 177,
+          "y": 26
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Smite",
+          "onClick": {
+            "name": "Angelicswordsmitebutton"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Smite",
+          "x": 69,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Fire Aspect",
+          "onClick": {
+            "name": "Angelicswordfireaspectbutton"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Fire Aspect",
+          "x": 173,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "BoArthropods",
+          "onClick": {
+            "name": "Angelicswordboabutton"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "BoArthropods",
+          "x": 276,
+          "y": 94
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Default",
+          "onClick": {
+            "name": "Angelicsworddefault"
+          },
+          "width": 75,
+          "height": 20,
+          "name": "Default",
+          "x": 173,
+          "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greencheck.png",
+          "use1Xscale": false,
+          "name": "greencheck.png",
+          "x": 96,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redcross.png",
+          "use1Xscale": false,
+          "name": "redcross.png",
+          "x": 96,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greencheck.png",
+          "use1Xscale": false,
+          "name": "greencheck.png",
+          "x": 204,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redcross.png",
+          "use1Xscale": false,
+          "name": "redcross.png",
+          "x": 204,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greencheck.png",
+          "use1Xscale": false,
+          "name": "greencheck.png",
+          "x": 308,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redcross.png",
+          "use1Xscale": false,
+          "name": "redcross.png",
+          "x": 308,
+          "y": 76
+        }
+      }
+    ]
+  }
+}
