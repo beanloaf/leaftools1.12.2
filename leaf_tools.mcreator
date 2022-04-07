@@ -3218,7 +3218,7 @@
       "type": "gui",
       "sortid": 237,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {
         "0": 36
       },
@@ -3262,7 +3262,7 @@
       "type": "procedure",
       "sortid": 239,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "angelicsworddefault",
       "metadata": {
@@ -3279,7 +3279,7 @@
       "type": "procedure",
       "sortid": 240,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "angelicswordsmitebutton",
       "metadata": {
@@ -3296,7 +3296,7 @@
       "type": "procedure",
       "sortid": 241,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "angelicswordboabutton",
       "metadata": {
@@ -3313,7 +3313,7 @@
       "type": "procedure",
       "sortid": 242,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "angelicswordfireaspectbutton",
       "metadata": {

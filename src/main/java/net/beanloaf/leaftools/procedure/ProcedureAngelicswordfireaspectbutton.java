@@ -5,6 +5,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.init.Enchantments;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.Enchantment;
 
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -32,7 +34,7 @@ public class ProcedureAngelicswordfireaspectbutton extends ElementsLeafToolsMod.
 				_stack.getTagCompound().setBoolean("FA", (true));
 			}
 			(((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY))
-					.addEnchantment(Enchantments.FIRE_ASPECT, (int) 2);
+					.addEnchantment(Enchantments.FIRE_ASPECT, (int) 3);
 		} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
 				&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
 						.getBoolean("FA")) == (true))) {
@@ -42,6 +44,13 @@ public class ProcedureAngelicswordfireaspectbutton extends ElementsLeafToolsMod.
 					_stack.setTagCompound(new NBTTagCompound());
 				_stack.getTagCompound().setBoolean("FA", (false));
 			} /* remove fire aspect */
+			Map<Enchantment, Integer> _enchantments = EnchantmentHelper
+					.getEnchantments(((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY));
+			if (_enchantments.containsKey(Enchantments.FIRE_ASPECT)) {
+				_enchantments.remove(Enchantments.FIRE_ASPECT);
+				EnchantmentHelper.setEnchantments(_enchantments,
+						((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY));
+			}
 		}
 	}
 }

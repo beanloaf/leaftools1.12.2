@@ -21,6 +21,8 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
@@ -245,18 +247,37 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 140, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 140, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 244, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 244, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+
+			if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+					.getBoolean("SMITE")) == (true)) {
+				// Smite
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+			} else if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+					.getBoolean("SMITE")) == (false)) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+			}
+			if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+					.getBoolean("FA")) == (true)) {
+				// Fire Aspect
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 140, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+			} else if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+					.getBoolean("FA")) == (false)) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 140, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+			}
+			if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+					.getBoolean("BOA")) == (true)) {
+				// Bane
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 244, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+			} else if ((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+					.getBoolean("BOA")) == (false)) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 244, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
+			}
 		}
 
 		@Override

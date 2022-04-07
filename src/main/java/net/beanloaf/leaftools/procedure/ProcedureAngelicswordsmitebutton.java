@@ -5,6 +5,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.init.Enchantments;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.enchantment.Enchantment;
 
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -34,6 +36,13 @@ public class ProcedureAngelicswordsmitebutton extends ElementsLeafToolsMod.ModEl
 						_stack.setTagCompound(new NBTTagCompound());
 					_stack.getTagCompound().setBoolean("BOA", (false));
 				} /* remove boa enchantment */
+				Map<Enchantment, Integer> _enchantments = EnchantmentHelper.getEnchantments(
+						((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY));
+				if (_enchantments.containsKey(Enchantments.BANE_OF_ARTHROPODS)) {
+					_enchantments.remove(Enchantments.BANE_OF_ARTHROPODS);
+					EnchantmentHelper.setEnchantments(_enchantments,
+							((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY));
+				}
 			}
 			{
 				ItemStack _stack = ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY);
@@ -42,7 +51,7 @@ public class ProcedureAngelicswordsmitebutton extends ElementsLeafToolsMod.ModEl
 				_stack.getTagCompound().setBoolean("SMITE", (true));
 			}
 			(((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY))
-					.addEnchantment(Enchantments.SMITE, (int) 5);
+					.addEnchantment(Enchantments.SMITE, (int) 6);
 		} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
 				&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
 						.getBoolean("SMITE")) == (true))) {
@@ -52,6 +61,13 @@ public class ProcedureAngelicswordsmitebutton extends ElementsLeafToolsMod.ModEl
 					_stack.setTagCompound(new NBTTagCompound());
 				_stack.getTagCompound().setBoolean("SMITE", (false));
 			} /* remove smite enchantment */
+			Map<Enchantment, Integer> _enchantments = EnchantmentHelper
+					.getEnchantments(((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY));
+			if (_enchantments.containsKey(Enchantments.SMITE)) {
+				_enchantments.remove(Enchantments.SMITE);
+				EnchantmentHelper.setEnchantments(_enchantments,
+						((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY));
+			}
 		}
 	}
 }
