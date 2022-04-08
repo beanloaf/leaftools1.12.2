@@ -62,6 +62,7 @@ import net.beanloaf.leaftools.gui.GuiGuideTOC;
 import net.beanloaf.leaftools.gui.GuiDustholdergui;
 import net.beanloaf.leaftools.gui.GuiDustextractorgui;
 import net.beanloaf.leaftools.gui.GuiAngelicswordgui;
+import net.beanloaf.leaftools.gui.GuiAngelicshovelgui;
 import net.beanloaf.leaftools.gui.GuiAngelicpickaxegui;
 import net.beanloaf.leaftools.gui.GuiAngelicaxegui;
 
@@ -213,6 +214,8 @@ public class ElementsLeafToolsMod implements IFuelHandler, IWorldGenerator {
 				return new GuiAngelicswordgui.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiAngelicaxegui.GUIID)
 				return new GuiAngelicaxegui.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiAngelicshovelgui.GUIID)
+				return new GuiAngelicshovelgui.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -278,6 +281,8 @@ public class ElementsLeafToolsMod implements IFuelHandler, IWorldGenerator {
 				return new GuiAngelicswordgui.GuiWindow(world, x, y, z, player);
 			if (id == GuiAngelicaxegui.GUIID)
 				return new GuiAngelicaxegui.GuiWindow(world, x, y, z, player);
+			if (id == GuiAngelicshovelgui.GUIID)
+				return new GuiAngelicshovelgui.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

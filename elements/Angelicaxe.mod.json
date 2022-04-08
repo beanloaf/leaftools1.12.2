@@ -18,13 +18,19 @@
     "damageVsEntity": 22.0,
     "usageCount": 2500,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [],
     "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
       "name": "AngelicaxeRightClickedInAir"
+    },
+    "onCrafted": {
+      "name": "AngelicaxeItemIsCraftedsmelted"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "AngelicaxeBlockDestroyedWithTool"
     }
   }
 }

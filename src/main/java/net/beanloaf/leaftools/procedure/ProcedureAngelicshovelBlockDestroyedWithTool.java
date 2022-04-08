@@ -11,30 +11,30 @@ import net.beanloaf.leaftools.ElementsLeafToolsMod;
 import java.util.Map;
 
 @ElementsLeafToolsMod.ModElement.Tag
-public class ProcedureAngelicpickaxeBlockDestroyedWithTool extends ElementsLeafToolsMod.ModElement {
-	public ProcedureAngelicpickaxeBlockDestroyedWithTool(ElementsLeafToolsMod instance) {
-		super(instance, 227);
+public class ProcedureAngelicshovelBlockDestroyedWithTool extends ElementsLeafToolsMod.ModElement {
+	public ProcedureAngelicshovelBlockDestroyedWithTool(ElementsLeafToolsMod instance) {
+		super(instance, 250);
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("itemstack") == null) {
-			System.err.println("Failed to load dependency itemstack for procedure AngelicpickaxeBlockDestroyedWithTool!");
+			System.err.println("Failed to load dependency itemstack for procedure AngelicshovelBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
-			System.err.println("Failed to load dependency x for procedure AngelicpickaxeBlockDestroyedWithTool!");
+			System.err.println("Failed to load dependency x for procedure AngelicshovelBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
-			System.err.println("Failed to load dependency y for procedure AngelicpickaxeBlockDestroyedWithTool!");
+			System.err.println("Failed to load dependency y for procedure AngelicshovelBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
-			System.err.println("Failed to load dependency z for procedure AngelicpickaxeBlockDestroyedWithTool!");
+			System.err.println("Failed to load dependency z for procedure AngelicshovelBlockDestroyedWithTool!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure AngelicpickaxeBlockDestroyedWithTool!");
+			System.err.println("Failed to load dependency world for procedure AngelicshovelBlockDestroyedWithTool!");
 			return;
 		}
 		ItemStack itemstack = (ItemStack) dependencies.get("itemstack");

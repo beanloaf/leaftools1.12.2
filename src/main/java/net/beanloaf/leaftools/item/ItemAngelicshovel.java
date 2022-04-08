@@ -13,21 +13,16 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.EnumHand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemSpade;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
-import java.util.List;
-import net.minecraft.client.util.ITooltipFlag;
-
-
-
-import net.beanloaf.leaftools.procedure.ProcedureAngelicpickaxeRightClickedInAir;
-import net.beanloaf.leaftools.procedure.ProcedureAngelicpickaxeItemIsCraftedsmelted;
-import net.beanloaf.leaftools.procedure.ProcedureAngelicpickaxeBlockDestroyedWithTool;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicshovelRightClickedInAir;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicshovelItemIsCraftedsmelted;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicshovelBlockDestroyedWithTool;
 import net.beanloaf.leaftools.creativetab.TabLeaftools;
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -36,22 +31,22 @@ import java.util.Map;
 import java.util.HashMap;
 
 @ElementsLeafToolsMod.ModElement.Tag
-public class ItemAngelicpickaxe extends ElementsLeafToolsMod.ModElement {
-	@GameRegistry.ObjectHolder("leaf_tools:angelicpickaxe")
+public class ItemAngelicshovel extends ElementsLeafToolsMod.ModElement {
+	@GameRegistry.ObjectHolder("leaf_tools:angelicshovel")
 	public static final Item block = null;
-	public ItemAngelicpickaxe(ElementsLeafToolsMod instance) {
-		super(instance, 223);
+	public ItemAngelicshovel(ElementsLeafToolsMod instance) {
+		super(instance, 246);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("ANGELICPICKAXE", 9, 2500, 15f, 4f, 25)) {//Name, Harvestlvl, Durability, Effiency, Attack Dmg, Enchantability
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("ANGELICSHOVEL", 9, 2500, 15f, 0f, 25)) {
 			{
-				this.attackSpeed = -2.2f;
+				this.attackSpeed = -3f;
 			}
 			public Set<String> getToolClasses(ItemStack stack) {
 				HashMap<String, Integer> ret = new HashMap<String, Integer>();
-				ret.put("pickaxe", 9);
+				ret.put("spade", 9);
 				return ret.keySet();
 			}
 
@@ -69,7 +64,7 @@ public class ItemAngelicpickaxe extends ElementsLeafToolsMod.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					ProcedureAngelicpickaxeRightClickedInAir.executeProcedure($_dependencies);
+					ProcedureAngelicshovelRightClickedInAir.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
@@ -87,7 +82,7 @@ public class ItemAngelicpickaxe extends ElementsLeafToolsMod.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					ProcedureAngelicpickaxeBlockDestroyedWithTool.executeProcedure($_dependencies);
+					ProcedureAngelicshovelBlockDestroyedWithTool.executeProcedure($_dependencies);
 				}
 				return retval;
 			}
@@ -101,34 +96,21 @@ public class ItemAngelicpickaxe extends ElementsLeafToolsMod.ModElement {
 				{
 					Map<String, Object> $_dependencies = new HashMap<>();
 					$_dependencies.put("itemstack", itemstack);
-					ProcedureAngelicpickaxeItemIsCraftedsmelted.executeProcedure($_dependencies);
+					ProcedureAngelicshovelItemIsCraftedsmelted.executeProcedure($_dependencies);
 				}
 			}
 
 			@Override
 			@SideOnly(Side.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
-				return (true);
+				return true;
 			}
-
-			
-			@Override
-			public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
-				if ((((itemstack).hasTagCompound() && (itemstack).getTagCompound().getBoolean("AS")) == (true))) {
-					super.addInformation(itemstack, world, list, flag);
-					list.add("Auto-Smelt");
-				}
-
-			}
-
-
-
-		}.setUnlocalizedName("angelicpickaxe").setRegistryName("angelicpickaxe").setCreativeTab(TabLeaftools.tab));
+		}.setUnlocalizedName("angelicshovel").setRegistryName("angelicshovel").setCreativeTab(TabLeaftools.tab));
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("leaf_tools:angelicpickaxe", "inventory"));
+		ModelLoader.setCustomModelResourceLocation(block, 0, new ModelResourceLocation("leaf_tools:angelicshovel", "inventory"));
 	}
 }

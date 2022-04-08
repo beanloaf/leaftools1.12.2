@@ -3,19 +3,19 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "angelicsword",
+    "texture": "angelicshovel",
     "customModelName": "Normal",
-    "name": "Angelic Sword",
+    "name": "Angelic Shovel",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Leaftools"
     },
-    "toolType": "Sword",
+    "toolType": "Spade",
     "harvestLevel": 9,
-    "efficiency": 4.0,
-    "attackSpeed": 1.2,
+    "efficiency": 15.0,
+    "attackSpeed": 1.0,
     "enchantability": 25,
-    "damageVsEntity": 20.0,
+    "damageVsEntity": 4.0,
     "usageCount": 2500,
     "blocksAffected": [],
     "hasGlow": true,
@@ -24,7 +24,13 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
-      "name": "AngelicswordRightClickedInAir"
+      "name": "AngelicshovelRightClickedInAir"
+    },
+    "onCrafted": {
+      "name": "AngelicshovelItemIsCraftedsmelted"
+    },
+    "onBlockDestroyedWithTool": {
+      "name": "AngelicshovelBlockDestroyedWithTool"
     }
   }
 }

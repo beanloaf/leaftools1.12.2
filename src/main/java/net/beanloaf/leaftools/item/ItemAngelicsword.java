@@ -77,6 +77,12 @@ public class ItemAngelicsword extends ElementsLeafToolsMod.ModElement {
 				}
 				return retval;
 			}
+
+			@Override
+			@SideOnly(Side.CLIENT)
+			public boolean hasEffect(ItemStack itemstack) {
+				return true;
+			}
 		}.setUnlocalizedName("angelicsword").setRegistryName("angelicsword").setCreativeTab(TabLeaftools.tab));
 	}
 

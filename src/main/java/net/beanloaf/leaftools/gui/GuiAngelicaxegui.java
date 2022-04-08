@@ -21,9 +21,13 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
+import net.beanloaf.leaftools.procedure.ProcedureAngelicaxesilktouchbutton;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicaxedefaultbutton;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicaxeautosmeltbutton;
 import net.beanloaf.leaftools.LeafToolsMod;
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -241,6 +245,35 @@ public class GuiAngelicaxegui extends ElementsLeafToolsMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
+
+
+			
+			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("AS")) == (true))) {
+				// autosmelt
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 36, this.guiTop + 60, 0, 0, 16, 16, 16, 16);
+			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("AS")) == (false))) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 36, this.guiTop + 60, 0, 0, 16, 16, 16, 16);
+			}
+
+			
+			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("ST")) == (true))) {
+				// silk touch
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 60, 0, 0, 16, 16, 16, 16);
+			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("ST")) == (false))) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 60, 0, 0, 16, 16, 16, 16);
+			}
 		}
 
 		@Override
@@ -276,6 +309,9 @@ public class GuiAngelicaxegui extends ElementsLeafToolsMod.ModElement {
 			this.guiTop = (this.height - 200) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 113, this.guiTop + 78, 75, 20, "Silk Touch"));
+			this.buttonList.add(new GuiButton(1, this.guiLeft + 9, this.guiTop + 78, 75, 20, "Auto-Smelt"));
+			this.buttonList.add(new GuiButton(2, this.guiLeft + 59, this.guiTop + 20, 75, 20, "Default"));
 		}
 
 		@Override
@@ -390,6 +426,27 @@ public class GuiAngelicaxegui extends ElementsLeafToolsMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAngelicaxesilktouchbutton.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAngelicaxeautosmeltbutton.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAngelicaxedefaultbutton.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {

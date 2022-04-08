@@ -6,19 +6,19 @@
     "width": 200,
     "height": 200,
     "inventoryOffsetX": 0,
-    "inventoryOffsetY": 17,
+    "inventoryOffsetY": 15,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
       {
         "type": "label",
         "data": {
-          "text": "Angelic Axe",
+          "text": "Angelic Shovel",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Angelic Axe",
+          "name": "Angelic Shovel",
           "x": 177,
           "y": 26
         }
@@ -26,38 +26,7 @@
       {
         "type": "button",
         "data": {
-          "text": "Silk Touch",
-          "onClick": {
-            "name": "Angelicaxesilktouchbutton"
-          },
-          "width": 75,
-          "height": 20,
-          "name": "Silk Touch",
-          "x": 227,
-          "y": 98
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "Auto-Smelt",
-          "onClick": {
-            "name": "Angelicaxeautosmeltbutton"
-          },
-          "width": 75,
-          "height": 20,
-          "name": "Auto-Smelt",
-          "x": 123,
-          "y": 98
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "text": "Default",
-          "onClick": {
-            "name": "Angelicaxedefaultbutton"
-          },
           "width": 75,
           "height": 20,
           "name": "Default",
@@ -66,13 +35,25 @@
         }
       },
       {
-        "type": "image",
+        "type": "button",
         "data": {
-          "image": "greencheck.png",
-          "use1Xscale": false,
-          "name": "greencheck.png",
-          "x": 150,
-          "y": 80
+          "text": "Auto-Smelt",
+          "width": 75,
+          "height": 20,
+          "name": "Auto-Smelt",
+          "x": 119,
+          "y": 103
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Silk Touch",
+          "width": 75,
+          "height": 20,
+          "name": "Silk Touch",
+          "x": 231,
+          "y": 103
         }
       },
       {
@@ -81,8 +62,28 @@
           "image": "redcross.png",
           "use1Xscale": false,
           "name": "redcross.png",
-          "x": 150,
-          "y": 80
+          "x": 146,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "greencheck.png",
+          "use1Xscale": false,
+          "name": "greencheck.png",
+          "x": 146,
+          "y": 85
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "redcross.png",
+          "use1Xscale": false,
+          "name": "redcross.png",
+          "x": 258,
+          "y": 85
         }
       },
       {
@@ -92,17 +93,7 @@
           "use1Xscale": false,
           "name": "greencheck.png",
           "x": 258,
-          "y": 80
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "redcross.png",
-          "use1Xscale": false,
-          "name": "redcross.png",
-          "x": 258,
-          "y": 80
+          "y": 85
         }
       }
     ]

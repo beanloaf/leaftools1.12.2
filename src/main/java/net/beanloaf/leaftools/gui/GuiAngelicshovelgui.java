@@ -21,15 +21,9 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.Entity;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
-import net.beanloaf.leaftools.procedure.ProcedureAngelicswordsmitebutton;
-import net.beanloaf.leaftools.procedure.ProcedureAngelicswordfireaspectbutton;
-import net.beanloaf.leaftools.procedure.ProcedureAngelicsworddefault;
-import net.beanloaf.leaftools.procedure.ProcedureAngelicswordboabutton;
 import net.beanloaf.leaftools.LeafToolsMod;
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -40,11 +34,11 @@ import java.util.HashMap;
 import java.io.IOException;
 
 @ElementsLeafToolsMod.ModElement.Tag
-public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
-	public static int GUIID = 36;
+public class GuiAngelicshovelgui extends ElementsLeafToolsMod.ModElement {
+	public static int GUIID = 38;
 	public static HashMap guistate = new HashMap();
-	public GuiAngelicswordgui(ElementsLeafToolsMod instance) {
-		super(instance, 237);
+	public GuiAngelicshovelgui(ElementsLeafToolsMod instance) {
+		super(instance, 248);
 	}
 
 	@Override
@@ -72,9 +66,9 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 			int sj;
 			for (si = 0; si < 3; ++si)
 				for (sj = 0; sj < 9; ++sj)
-					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 62 + 8 + sj * 18, 32 + 84 + si * 18));
+					this.addSlotToContainer(new Slot(player.inventory, sj + (si + 1) * 9, 12 + 8 + sj * 18, 32 + 84 + si * 18));
 			for (si = 0; si < 9; ++si)
-				this.addSlotToContainer(new Slot(player.inventory, si, 62 + 8 + si * 18, 32 + 142));
+				this.addSlotToContainer(new Slot(player.inventory, si, 12 + 8 + si * 18, 32 + 142));
 		}
 
 		public Map<Integer, Slot> get() {
@@ -228,10 +222,10 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 			this.y = y;
 			this.z = z;
 			this.entity = entity;
-			this.xSize = 300;
+			this.xSize = 200;
 			this.ySize = 200;
 		}
-		private static final ResourceLocation texture = new ResourceLocation("leaf_tools:textures/angelicswordgui.png");
+		private static final ResourceLocation texture = new ResourceLocation("leaf_tools:textures/angelicshovelgui.png");
 		@Override
 		public void drawScreen(int mouseX, int mouseY, float partialTicks) {
 			this.drawDefaultBackground();
@@ -247,47 +241,14 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
-
-
-			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
-					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
-							.getBoolean("SMITE")) == (true))) {
-					
-				// Smite
-				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
-					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
-							.getBoolean("SMITE")) == (false))) {
-				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			}
-
-			
-			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
-					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
-							.getBoolean("FA")) == (true))) {
-				// Fire Aspect
-				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 140, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
-					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
-							.getBoolean("FA")) == (false))) {
-				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 140, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			}
-			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
-					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
-							.getBoolean("BOA")) == (true))) {
-				// Bane
-				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 244, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
-					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
-							.getBoolean("BOA")) == (false))) {
-				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 244, this.guiTop + 56, 0, 0, 16, 16, 16, 16);
-			}
+			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
 		}
 
 		@Override
@@ -307,7 +268,7 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 
 		@Override
 		protected void drawGuiContainerForegroundLayer(int par1, int par2) {
-			this.fontRenderer.drawString("Angelic Sword", 113, 6, -12829636);
+			this.fontRenderer.drawString("Angelic Shovel", 63, 6, -12829636);
 		}
 
 		@Override
@@ -319,14 +280,13 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 		@Override
 		public void initGui() {
 			super.initGui();
-			this.guiLeft = (this.width - 300) / 2;
+			this.guiLeft = (this.width - 200) / 2;
 			this.guiTop = (this.height - 200) / 2;
 			Keyboard.enableRepeatEvents(true);
 			this.buttonList.clear();
-			this.buttonList.add(new GuiButton(0, this.guiLeft + 5, this.guiTop + 74, 75, 20, "Smite"));
-			this.buttonList.add(new GuiButton(1, this.guiLeft + 109, this.guiTop + 74, 75, 20, "Fire Aspect"));
-			this.buttonList.add(new GuiButton(2, this.guiLeft + 212, this.guiTop + 74, 75, 20, "BoArthropods"));
-			this.buttonList.add(new GuiButton(3, this.guiLeft + 109, this.guiTop + 20, 75, 20, "Default"));
+			this.buttonList.add(new GuiButton(0, this.guiLeft + 59, this.guiTop + 20, 75, 20, "Default"));
+			this.buttonList.add(new GuiButton(1, this.guiLeft + 5, this.guiTop + 83, 75, 20, "Auto-Smelt"));
+			this.buttonList.add(new GuiButton(2, this.guiLeft + 117, this.guiTop + 83, 75, 20, "Silk Touch"));
 		}
 
 		@Override
@@ -441,34 +401,6 @@ public class GuiAngelicswordgui extends ElementsLeafToolsMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (buttonID == 0) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureAngelicswordsmitebutton.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 1) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureAngelicswordfireaspectbutton.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 2) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureAngelicswordboabutton.executeProcedure($_dependencies);
-			}
-		}
-		if (buttonID == 3) {
-			{
-				Map<String, Object> $_dependencies = new HashMap<>();
-				$_dependencies.put("entity", entity);
-				ProcedureAngelicsworddefault.executeProcedure($_dependencies);
-			}
-		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {
