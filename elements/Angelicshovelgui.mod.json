@@ -27,6 +27,9 @@
         "type": "button",
         "data": {
           "text": "Default",
+          "onClick": {
+            "name": "Angelicshoveldefaultbutton"
+          },
           "width": 75,
           "height": 20,
           "name": "Default",
@@ -38,6 +41,9 @@
         "type": "button",
         "data": {
           "text": "Auto-Smelt",
+          "onClick": {
+            "name": "Angelicshovelautosmeltbutton"
+          },
           "width": 75,
           "height": 20,
           "name": "Auto-Smelt",
@@ -49,6 +55,9 @@
         "type": "button",
         "data": {
           "text": "Silk Touch",
+          "onClick": {
+            "name": "Angelicshovelsilktouchbutton"
+          },
           "width": 75,
           "height": 20,
           "name": "Silk Touch",

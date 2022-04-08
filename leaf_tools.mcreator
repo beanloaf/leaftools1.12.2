@@ -3466,7 +3466,7 @@
       "type": "tool",
       "sortid": 246,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "angelicshovel"
     },
@@ -3492,7 +3492,7 @@
       "type": "gui",
       "sortid": 248,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {
         "0": 38
       },
@@ -3560,6 +3560,57 @@
           {
             "name": "world",
             "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angelicshovelautosmeltbutton",
+      "type": "procedure",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "angelicshovelautosmeltbutton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angelicshovelsilktouchbutton",
+      "type": "procedure",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "angelicshovelsilktouchbutton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Angelicshoveldefaultbutton",
+      "type": "procedure",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": true,
+      "ids": {},
+      "registry_name": "angelicshoveldefaultbutton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
           }
         ]
       }

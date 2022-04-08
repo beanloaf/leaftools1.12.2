@@ -245,9 +245,6 @@ public class GuiAngelicaxegui extends ElementsLeafToolsMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
-
-
-			
 			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
 					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
 							.getBoolean("AS")) == (true))) {
@@ -260,8 +257,6 @@ public class GuiAngelicaxegui extends ElementsLeafToolsMod.ModElement {
 				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
 				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 36, this.guiTop + 60, 0, 0, 16, 16, 16, 16);
 			}
-
-			
 			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
 					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
 							.getBoolean("ST")) == (true))) {

@@ -17,6 +17,7 @@ import net.minecraft.item.ItemSpade;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
 
@@ -28,6 +29,7 @@ import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
 import java.util.Set;
 import java.util.Map;
+import java.util.List;
 import java.util.HashMap;
 
 @ElementsLeafToolsMod.ModElement.Tag
@@ -40,7 +42,7 @@ public class ItemAngelicshovel extends ElementsLeafToolsMod.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("ANGELICSHOVEL", 9, 2500, 15f, 0f, 25)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("ANGELICSHOVEL", 9, 2500, 15f, 1f, 25)) {
 			{
 				this.attackSpeed = -3f;
 			}
@@ -104,6 +106,14 @@ public class ItemAngelicshovel extends ElementsLeafToolsMod.ModElement {
 			@SideOnly(Side.CLIENT)
 			public boolean hasEffect(ItemStack itemstack) {
 				return true;
+			}
+
+			@Override
+			public void addInformation(ItemStack itemstack, World world, List<String> list, ITooltipFlag flag) {
+				if ((((itemstack).hasTagCompound() && (itemstack).getTagCompound().getBoolean("AS")) == (true))) {
+					super.addInformation(itemstack, world, list, flag);
+					list.add("Auto-Smelt");
+				}
 			}
 		}.setUnlocalizedName("angelicshovel").setRegistryName("angelicshovel").setCreativeTab(TabLeaftools.tab));
 	}

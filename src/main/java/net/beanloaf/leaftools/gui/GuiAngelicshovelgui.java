@@ -21,9 +21,13 @@ import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.Container;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.gui.GuiButton;
 
+import net.beanloaf.leaftools.procedure.ProcedureAngelicshovelsilktouchbutton;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicshoveldefaultbutton;
+import net.beanloaf.leaftools.procedure.ProcedureAngelicshovelautosmeltbutton;
 import net.beanloaf.leaftools.LeafToolsMod;
 import net.beanloaf.leaftools.ElementsLeafToolsMod;
 
@@ -241,14 +245,30 @@ public class GuiAngelicshovelgui extends ElementsLeafToolsMod.ModElement {
 			int l = (this.height - this.ySize) / 2;
 			this.drawModalRectWithCustomSizedTexture(k, l, 0, 0, this.xSize, this.ySize, this.xSize, this.ySize);
 			zLevel = 100.0F;
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
-			this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
-			this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("AS")) == (false))) {
+				// Autosmelt
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("AS")) == (true))) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 32, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			}
+			if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("ST")) == (false))) {
+				// Silk Touch
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/redcross.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			} else if (((((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).hasTagCompound()
+					&& ((entity instanceof EntityLivingBase) ? ((EntityLivingBase) entity).getHeldItemMainhand() : ItemStack.EMPTY).getTagCompound()
+							.getBoolean("ST")) == (true))) {
+				this.mc.renderEngine.bindTexture(new ResourceLocation("leaf_tools:textures/greencheck.png"));
+				this.drawModalRectWithCustomSizedTexture(this.guiLeft + 144, this.guiTop + 65, 0, 0, 16, 16, 16, 16);
+			}
 		}
 
 		@Override
@@ -401,6 +421,27 @@ public class GuiAngelicshovelgui extends ElementsLeafToolsMod.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
+		if (buttonID == 0) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAngelicshoveldefaultbutton.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 1) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAngelicshovelautosmeltbutton.executeProcedure($_dependencies);
+			}
+		}
+		if (buttonID == 2) {
+			{
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("entity", entity);
+				ProcedureAngelicshovelsilktouchbutton.executeProcedure($_dependencies);
+			}
+		}
 	}
 
 	private static void handleSlotAction(EntityPlayer entity, int slotID, int changeType, int meta, int x, int y, int z) {
